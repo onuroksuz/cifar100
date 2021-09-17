@@ -23,3 +23,21 @@ val_acc:0.4767
 
 
 ![Screen Shot 2021-08-31 at 12 28 31 AM](https://user-images.githubusercontent.com/7634028/133729429-1ab2eab2-c166-4ce0-97c9-4a7d6f8a457f.png)
+
+
+# DROPOUT
+
+Two dropouts are used in the model. The first dropout value is 0.15. It is after the 2nd convolution.
+The second dropout value is 0.25. It is after the 4th convolution.
+Val_acc:0.3100.
+well, dropout has increased the success of the network in this model.
+
+![Screen Shot 2021-08-31 at 1 03 05 AM](https://user-images.githubusercontent.com/7634028/133729632-30ddc96e-7cf3-41c7-9767-e8e6e812bca8.png)
+
+The val_acc value of the network has increased without being stuck to the local minimums.
+
+![Screen Shot 2021-08-31 at 1 03 10 AM](https://user-images.githubusercontent.com/7634028/133729690-daa6d867-c02c-40bb-8a08-4b40b8106a6d.png)
+
+
+
+
